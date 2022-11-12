@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.box1 {background: red;}
+.box2 {background: green;}
+.box3 {background: yellow;}
+.box4 {background: brown;}
+.box5 {background: orange;}
+.box6 {background: purple;}
+.box7 {background: black;}
+.box8 {background: magenta;}
+.box9 {background: silver;}
+.box10 {background: teal;}
+
+/* .box{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+} */
+
+/* .box1 {font-size: 30px;}
+.box2 {font-size: 60px;}
+.box3 {font-size: 90px;}
+.box4 {font-size: 120px;}
+.box5 {font-size: 160px;}
+.box6 {font-size: 180px;}
+.box7 {font-size: 160px;}
+.box8 {font-size: 120px;}
+.box9 {font-size: 90px;}
+.box10 {font-size: 60px;} */
+
+.container {
+    display:flex;
+
+
+    
+}
+
+.box1{
+    flex-basis: 400px;
+    flex-grow: 2;
+    flex-shrink: 3;
+
+}
+
+.box2{
+    flex-basis: 100px;
+    flex-grow: 3;
+    flex-shrink: 2;
+}
+
+
+
+/* .box {
+    width:33.333%;
+}
+.box2{
+    padding-bottom: 200px;
+    align-self: flex-end;
+}
+.box6{
+    padding-bottom: 20px;
+    align-self: center;
+}
+.box9{
+    padding-bottom: 300px;
+    align-self: flex-start;
+} */
